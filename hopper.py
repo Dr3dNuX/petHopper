@@ -4,7 +4,7 @@ import os
 
 
 
-age_limit = 999
+age_limit = 55
 
 
 class hopper:
@@ -58,7 +58,8 @@ def setstats(hopper):
         statsettinginput = int(input('>> '))
         hopper.age = statsettinginput
         break
-
+  
+# the method to age the hopper will slowly increase age every 15 seconds
 def ager(hopper):
     while True:
         time.sleep(15)
@@ -69,22 +70,14 @@ def ager(hopper):
             killhopper(h1)
 
 def killhopper(hopper):
-    # fuction to kill hopper aka delat hopper object
+    # fuction to kill hopper aka del hopper object
     # then exit the game because you lost
     print('Hopper died')
     os.abort()
 
-def hopperinit():
-    # builds hopper and starts hunger timer / ager timer
-    # builds object
-    pass
-
 h1 = hopper()
-h1.name = 'jake'
-h1.belly = ['pizza','chip','hotdog','ice-cream']
-h1.age = 10
 
-
+# the mail loop that starts the menus and lets you set the hoppers attrs.
 def mainLoop():
     oplist = ['show', 'feed', 'kill', 'exit']
     setstats(h1)
@@ -106,6 +99,6 @@ def mainLoop():
         print('bruh')
 
 
-
+h1 = hopper()
 t1 = threading.Thread(target=mainLoop)
 t1.start()
