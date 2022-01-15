@@ -33,6 +33,6 @@ your hopper will die if it gets too old.
 
 ![agelimit](https://user-images.githubusercontent.com/84602650/149604479-0ffbf0a4-3700-4300-bf7f-4504bd7098c3.png)
 
-There was a lot more i was going to do with like games adding more hoppers making a keeper class making a store to buy things to keep the hoppers
-mini games to level up your hoppers letting your hoppers get sick and needing to buy meds to heal them making it so you had to get money to buy items 
-etc
+There was a lot more i was going to do with this game like adding more hoppers making a keeper class, making a store to buy things to keep the hoppers,
+mini games to level up your hoppers letting your hoppers get sick and needing to buy meds to heal them, making it so you had to get money to buy items 
+etc.
