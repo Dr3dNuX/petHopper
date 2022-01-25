@@ -1,5 +1,5 @@
 # petHopper
-This was a class based pet hopper tamagotchi based thing its not finished but i got this idea after seeing a friends code and when i finesed learning about OOP it also uses threading to keep the hoppers timers working so hunger and ager timers as well as run the menu loop.
+This was a class based pet hopper tamagotchi based thing its not finished but i got this idea after seeing a friends code and when i finished learning about OOP. it uses threading to keep the hoppers hunger and ager timers going as well as the menu loop.
 
 The first thing you will see when you start the program is the game setstat menu which will prompt you to set the age and name of your hopper
 
